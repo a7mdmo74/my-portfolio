@@ -10,12 +10,20 @@ interface IProps {
 
 const PROJECTS = [
   {
+    name: 'threads clone',
+    description: 'Build a clone social media website with Nextjs',
+    stack: 'Nextjs - Reactjs - Tailwindcss - Mongodb - clerk',
+    linkDemo: 'https://threads-a7mdmo74.vercel.app/',
+    source: 'https://github.com/a7mdmo74/threads',
+    image: '/images/threads.jpg',
+  },
+  {
     name: 'amazon clone',
     description: 'Build a clone ecommerce website with Nextjs',
     stack: 'Nextjs - Reactjs - Redux - Tailwindcss',
     linkDemo: 'https://amazon-clone-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/amazon-clone',
-    image: '/images/projects/amazon.jpg',
+    image: '/images/amazon.jpg',
   },
   {
     name: 'Blog AI',
@@ -23,7 +31,7 @@ const PROJECTS = [
     stack: 'Nextjs - Reactjs - Taiwindcss - prisma - axios',
     linkDemo: 'https://next-blog-ai-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/next-blog-ai',
-    image: '/images/projects/blog.jpeg',
+    image: '/images/blog.jpeg',
   },
   {
     name: 'Full Stack Food Order',
@@ -31,7 +39,7 @@ const PROJECTS = [
     stack: 'Reactjs - Taiwindcss - firebase - axios',
     linkDemo: 'https://bzone-restaurant-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/bzone-restaurant',
-    image: '/images/projects/bzone.jpg',
+    image: '/images/bzone.jpg',
   },
   {
     name: 'Netflix clone',
@@ -39,7 +47,7 @@ const PROJECTS = [
     stack: 'Nextjs, Reactjs, Redux, Tailwindcss',
     linkDemo: 'https://netflix-clone-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/netflix-clone',
-    image: '/images/projects/netflix.png',
+    image: '/images/netflix.png',
   },
   {
     name: 'Atomix Design',
@@ -47,7 +55,7 @@ const PROJECTS = [
     stack: 'Nextjs - Reactjs - tailwindCSS',
     linkDemo: 'https://atomix-design-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/atomix-design',
-    image: '/images/projects/atomix.jpg',
+    image: '/images/atomix.jpg',
   },
   {
     name: 'Metaversus',
@@ -55,7 +63,7 @@ const PROJECTS = [
     stack: 'Reactjs, Vite, Tailwindcss',
     linkDemo: 'https://metaversus-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/metaversus',
-    image: '/images/projects/metaverse.jpg',
+    image: '/images/metaverse.jpg',
   },
   {
     name: 'GPT-3 website',
@@ -63,7 +71,7 @@ const PROJECTS = [
     stack: 'Reactjs - tailwindcss',
     linkDemo: 'https://gpt3-website-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/gpt3-website',
-    image: '/images/projects/gpt.jpg',
+    image: '/images/gpt.jpg',
   },
   {
     name: 'landing page',
@@ -71,7 +79,7 @@ const PROJECTS = [
     stack: 'Reactjs - tailwindcss',
     linkDemo: 'https://landing-page-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/landing-page',
-    image: '/images/projects/landing.jpg',
+    image: '/images/landing.jpg',
   },
   {
     name: 'Airbnb clone',
@@ -79,7 +87,7 @@ const PROJECTS = [
     stack: 'Nextjs, Reactjs, Redux, Tailwindcss',
     linkDemo: 'https://airbnb-clone-a7mdmo74.vercel.app/',
     source: 'https://github.com/a7mdmo74/airbnb-clone',
-    image: '/images/projects/airbnb.jpg',
+    image: '/images/airbnb.jpg',
   },
 ];
 
