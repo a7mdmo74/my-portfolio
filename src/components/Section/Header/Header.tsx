@@ -54,7 +54,7 @@ function Header(props: IProps) {
             <a
               style={{ color: 'white' }}
               target='_blank'
-              href='https://drive.google.com/file/d/19LsBZoTTMOEYOIHGrF6NaymFsmZHhRNa/view?usp=sharing'
+              href='https://drive.google.com/file/d/1HosJaBljxr0K1Dy15uEom89kayJfCCyf/view?usp=sharing'
               rel='noreferrer'
             >
               Download CV
