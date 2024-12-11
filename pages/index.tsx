@@ -81,16 +81,21 @@ function Home({ images }: any) {
 
 export const getStaticProps = async () => {
   const imagePaths = [
-    '/images/threads.jpg',
-    '/images/amazon.jpg',
-    '/images/blog.jpeg',
-    '/images/bzone.jpg',
-    '/images/netflix.png',
-    '/images/atomix.jpg',
-    '/images/metaverse.jpg',
-    '/images/gpt.jpg',
-    '/images/landing.jpg',
     '/images/airbnb.jpg',
+    '/images/amazon.jpg',
+    '/images/atomix.jpg',
+    '/images/awards.png',
+    '/images/gpt.jpg',
+    '/images/metaverse.jpg',
+    '/images/vsocial.png',
+    '/images/taqwa.png',
+    '/images/shadcn-ui.png',
+    '/images/plantex.png',
+    '/images/mealify.png',
+    '/images/hospital.png',
+    '/images/holux.png',
+    '/images/education.png',
+    '/images/brainwave.png',
   ];
 
   const plaiceholders = await Promise.all(
