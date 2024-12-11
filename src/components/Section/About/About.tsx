@@ -76,10 +76,6 @@ export default function About(props: IProps) {
             alt='SASS'
           />
           <img
-            src='https://img.shields.io/badge/LESS-%230db7ed.svg?style=flat-square&logo=less&logoColor=white'
-            alt='LESS'
-          />
-          <img
             src='https://img.shields.io/badge/Tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white'
             alt='TailwindCSS'
           />
@@ -96,6 +92,10 @@ export default function About(props: IProps) {
             alt='Reactjs'
           />
           <img
+            src='https://img.shields.io/badge/React_Native-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB'
+            alt='React Native'
+          />
+          <img
             src='https://img.shields.io/badge/Nextjs-black?style=flat-square&logo=next.js&logoColor=white'
             alt='Nextjs'
           />
@@ -108,12 +108,16 @@ export default function About(props: IProps) {
             alt='Expressjs'
           />
           <img
-            src='https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat-square&logo=firebase'
-            alt='Firebase'
-          />
-          <img
             src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white'
             alt='MongoDB'
+          />
+          <img
+            src='https://img.shields.io/badge/Prisma-%232D3748.svg?style=flat-square&logo=prisma&logoColor=white'
+            alt='Prisma'
+          />
+          <img
+            src='https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white'
+            alt='Clerk'
           />
           <img
             src='https://img.shields.io/badge/Git-%23E34F26.svg?style=flat-square&logo=git&logoColor=white'

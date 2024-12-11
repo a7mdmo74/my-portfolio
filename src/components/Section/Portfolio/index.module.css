@@ -130,8 +130,7 @@
   margin-bottom: 2.5rem;
   border-radius: 8px;
   /* background-color: #fff; */
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2),
-    0 4px 6px -4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.2);
   text-align: center;
   overflow: hidden;
   transition: all 350ms;
@@ -178,7 +177,6 @@
   }
 }
 
-
 .packages .itemView {
   justify-content: flex-start;
 }
@@ -203,3 +201,24 @@
   margin: 4px 0 12px;
 }
 
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tabButton {
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.tabButton.active {
+  background: #f25f4c;
+  color: white;
+  border-color: #f25f4c;
+}
