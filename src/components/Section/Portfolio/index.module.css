@@ -8,6 +8,14 @@
   text-align: center;
 }
 
+.project {
+  margin-bottom: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+  transition: all 350ms;
+}
 .projectItem h3 {
   color: #fff !important;
   text-align: center;
@@ -48,6 +56,8 @@
 
 .projectItemImage img {
   width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .projectItemInfo {
